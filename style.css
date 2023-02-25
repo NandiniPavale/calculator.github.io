@@ -1,0 +1,43 @@
+.{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: roboto;
+
+
+}
+body{
+    background-color:black;
+
+}
+.a{
+    width: 100%;
+    height: 100vh;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.a .calc{
+    width: 350px;
+    height: 450px;
+    position: relative;
+    border: 1px solid rgba(0, 0, 0,0);
+    font-size: 30px;
+    font-weight: 500;
+}
+.a .calc div
+{
+    width: 100%;
+    height: calc(450px/6);
+    display: flex;
+    flex: 1;
+}
+.a .calc div input{
+    width: 100%;
+    height: 100%;
+    font-size: 25px;
+    font-weight: 500;
+    border: 2px solid rgba(0,0,0,0);
+
+}
